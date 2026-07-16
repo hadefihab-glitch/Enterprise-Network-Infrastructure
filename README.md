@@ -123,10 +123,6 @@ Le schéma ci-dessous présente l'architecture globale de la plateforme de super
 
 ![](screenshots/Accès.à.l'interface.Web.de.pfSense.(WebConfigurator).png)
 
-### Vérification de la connectivité entre pfSense et les clients
-
-![](screenshots/vérification.connxion.pfsense.avec.client.png)
-
 ### Clients LAN connectés
 
 ![](screenshots/pfSense-Connected.LAN.Clients.(User-IHAB,Finance&RH).png)
