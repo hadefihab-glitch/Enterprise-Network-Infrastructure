@@ -71,7 +71,7 @@ Le schéma ci-dessous présente l'architecture globale de la plateforme de super
 
 ### Configuration du protocole DHCP
 
-![](screenshots/protocole dhcp.png)
+![](screenshots/protocole.dhcp.png)
 
 ### Configuration de l'étendue DHCP (Scope)
 
