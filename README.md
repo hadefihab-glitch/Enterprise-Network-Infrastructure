@@ -77,9 +77,27 @@ Le schéma ci-dessous présente l'architecture globale de la plateforme de super
 
 ![](screenshots/Configuration.de.l'étendue.DHCP.(Scope).png)
 
-### Validation de l'attribution des adresses IP
+### Attribution d'une adresse IP au client Admin
 
-![](screenshots/Validation.de.l'attribution.d'une.adresse.IP.par.le.serveur.DHCP.....png)
+![](screenshots/Validation.de.l'attribution.d'une.adresse.IP.par.le.serveur.DHCP.au.client.admin.png)
+
+---
+
+### Attribution d'une adresse IP au client FINANCE
+
+![](screenshots/Validation.de.l'attribution.d'une.adresse.IP.par.le.serveur.DHCP.au.client.finance.png)
+
+---
+
+### Attribution d'une adresse IP au client RH
+
+![](screenshots/Validation.de.l'attribution.d'une.adresse.IP.par.le.serveur.DHCP.au.client.RH.png)
+
+---
+
+### Attribution d'une adresse IP au client USER-IHAB
+
+![](screenshots/Validation.de.l'attribution.d'une.adresse.IP.par.le.serveur.DHCP.au.client.user.ihab.png)
 
 ---
 
