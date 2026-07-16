@@ -53,7 +53,145 @@ Cette infrastructure comprend notamment :
 - Un serveur Ubuntu hébergeant Zabbix.
 - Des postes clients Windows et Linux.
 - Une supervision centralisée de l'ensemble de l'infrastructure.
+# 📸 Captures d'écran
 
+## 🏗️ Architecture de l'infrastructure
+
+Le schéma ci-dessous présente l'architecture globale de la plateforme de supervision mise en place avec Zabbix.
+
+![](screenshots/Gemini_Generated_Image_kgg9tvkgg9tvkgg9.png)
+
+---
+
+## 🌐 Configuration de l'infrastructure réseau
+
+### Serveur principal
+
+![](screenshots/serveur.png)
+
+### Configuration du protocole DHCP
+
+![](screenshots/protocole dhcp.png)
+
+### Configuration de l'étendue DHCP (Scope)
+
+![](screenshots/Configuration de l'étendue DHCP (Scope).png)
+
+### Validation de l'attribution des adresses IP
+
+![](screenshots/Validation de l'attribution d'une adresse IP par le serveur DHCP ....png)
+
+---
+
+## 🖥️ Configuration d'Active Directory
+
+### Installation des services Active Directory (AD DS)
+
+![](screenshots/Installation réussie d'Active Directory Domain Services (AD DS).png)
+
+### Gestion des utilisateurs de l'OU IT
+
+![](screenshots/Gestion des utilisateurs de l'OU IT.png)
+
+### Intégration du poste client au domaine
+
+![](screenshots/Client-USER-IHAB Joined to IHAB.local Domain.png)
+
+---
+
+## 🔥 Configuration de pfSense
+
+### Accès à l'interface Web de pfSense
+
+![](screenshots/Accès à l'interface Web de pfSense (WebConfigurator).png)
+
+### Vérification de la connectivité entre pfSense et les clients
+
+![](screenshots/vérification connxion pfsense avec client.png)
+
+### Clients LAN connectés
+
+![](screenshots/pfSense - Connected LAN Clients (User-IHAB, Finance & RH).png)
+
+### Installation du service SNMP
+
+![](screenshots/pfsense-net-snmp-installation.png.png)
+
+### Intégration de pfSense dans Zabbix via SNMP
+
+![](screenshots/pfsense-added-to-zabbix-via-snmp.png)
+
+---
+
+## 📊 Déploiement du serveur Zabbix
+
+### Vérification du service Apache
+
+![](screenshots/vérification apach.png)
+
+### Vérification du service MariaDB
+
+![](screenshots/vérification mariadb.png)
+
+### Vérification du serveur Zabbix
+
+![](screenshots/Vérification zabbix .png)
+
+### Vérification de l'agent Zabbix
+
+![](screenshots/vérification zabbix.agent.png)
+
+---
+
+## 🖥️ Ajout des hôtes supervisés
+
+### Connexion des clients RH et FINANCE
+
+![](screenshots/Connexion des clients RH et Finance au serveur Zabbix.png)
+
+---
+
+## 📈 Supervision des ressources
+
+### Supervision du client FINANCE
+
+![](screenshots/Surveillance des ressources système du client FINANCE dans Zabbix.png)
+
+### Supervision du client RH
+
+![](screenshots/Surveillance des ressources système du client RH dans Zabbix.png)
+
+---
+
+## 🚨 Mise en place des alertes
+
+### Création du déclencheur CPU
+
+![](screenshots/Création d'un déclencheur pour la surveillance du CPU.png)
+
+### Création du script de remédiation automatique
+
+![](screenshots/Création d'un script de correction automatique du CPU dans Zabbix.png)
+
+### Création de l'action automatique
+
+![](screenshots/Création d'une action pour exécuter automatiquement le script de correction CPU.png)
+
+### Détection d'une surcharge CPU
+
+![](screenshots/Déclenchement d'une alerte CPU lorsque l'utilisation dépasse 90....png)
+
+### Résolution automatique du problème
+
+![](screenshots/Exécution réussie de la remédiation automatique et résolution du problème CPU dans Zabbix....png)
+
+---
+
+## 📊 Tableau de bord
+
+### Dashboard Zabbix
+
+![](screenshots/Dashboard.png)
 ---
 
 ## 🚀 Fonctionnalités mises en œuvre
